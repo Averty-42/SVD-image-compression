@@ -9,7 +9,7 @@ from PIL import Image
 path = os.path.abspath(__file__)
 dir = os.path.dirname(path)
 
-image = "arnuuv.jpeg" 
+image = "zebra.jpeg" 
 image_path = os.path.join(dir, image)
 img = Image.open(image_path)
 imggray = img.convert('L')
